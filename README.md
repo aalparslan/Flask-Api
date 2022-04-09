@@ -11,7 +11,17 @@ Missing parts in the `api.py` file are completed.
 
 ## Task description
 
-There are three API endpoints
+There are three API endpoints implemented. Details can be found in the upcoming sections.
+
+
+## Setup
+
+1. Open a terminal and `cd` to the project
+2. Build the docker image by typing
+`docker image build -t flask-web-test .`
+3. Run the dockerized flask app by typing
+ `docker image build -t flask-web-test .`
+4. Test the application by requesting the `http://localhost:5000` with the endpoints mentioned in previous sections.
 
 1. `/user_status`
 
@@ -90,13 +100,4 @@ Example response:
 }
 ```
 
-Note that this is just an example and not a real answer from API.
 
-## Setup
-
-1. Open a terminal and `cd` to the project
-2. Build the docker image by typing
-`docker image build -t flask-web-test .`
-3. Run the dockerized flask app by typing
- `docker image build -t flask-web-test .`
-4. Test the application by requesting the `http://localhost:5000` with the endpoints mentioned in previous sections.

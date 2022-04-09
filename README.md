@@ -1,17 +1,14 @@
 # Partial API Task
 
-## Goal
+
+## Task description
+
+There are three API endpoints implemented. Details can be found in the upcoming sections.
 
 Missing parts in the `api.py` file are completed. 
 - PEP-8 conventions are followed.
 - Unit tests are included. 
 - Application is containerized with Docker.
-
-
-
-## Task description
-
-There are three API endpoints implemented. Details can be found in the upcoming sections.
 
 
 ## Setup
